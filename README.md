@@ -20,7 +20,7 @@ __________________________________
 __________________________________
 ## 🚀 𝐃ερℓσү ση нεяσкυ 
 
-[![Deploy](https://telegra.ph/file/b1b3358ee6096d4750b82.jpg)](https://heroku.com/deploy?template=https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT)
+[![Deploy](https://telegra.ph/file/b1b3358ee6096d4750b82.jpg)](https://heroku.com/deploy?template=https://github.com/TEAM-BLAZ/blazeclone)
  __________________________________
 # [sтяιηg sεssιση](https://replit.com/@TCeReaLkiller/BLAZE-SPAMMER)
 
