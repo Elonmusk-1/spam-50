@@ -7,7 +7,7 @@
     "telegram",
     "userbot"
   ],
-    "repository": ""
+    "repository": "https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT"
     "env": {
       "STRING": {
         "description": "Telethon String Session",
