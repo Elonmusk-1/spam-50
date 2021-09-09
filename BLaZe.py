@@ -2718,6 +2718,10 @@ async def help(e):
     await e.reply(text, parse_mode=None, link_preview=None )
 
 @bla.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@blj.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+@blb.on(events.NewMessage(incoming=True, pattern=r"\.repo"))
+
+
 
 async def repo(e):
     if e.sender_id in BLAZEA_USERS:
