@@ -2734,7 +2734,7 @@ async def repo(e):
         ms = (end-start).microseconds / 1000
         await event.edit(f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n➤ 𝐃𝐄𝐏𝐋𝐎𝐘 𝐓𝐎 50 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓𝐒 𝐈𝐍 𝐎𝐍 𝐓𝐌𝐄...\n➤ 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 :- [#𝗧𝗛𝗘_𝗕𝗟𝗔𝗭𝗘_𝗡𝗘𝗧𝗪𝗢𝗥𝗞](https://t.me/BLAZE_SPAMMER)\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n ┏━━━━━━━━━━━━━━━━━━━━━\n ┣➤∆ 𝚅𝙴𝚁𝚈 𝙵𝙰𝚂𝚃 𝚂𝙿𝙰𝙼...\n ┣    ∆ 𝙽𝙾𝙽 𝚂𝚃𝙾𝙿 𝚂𝙿𝙰𝙼...    \n ┣ 🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰\n ┣\n ┣ ┈ ➤  🔱   [𝗥𝗘𝗣𝗢](https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT)      \n ┣      \n ┣  ┈➤  🔱   [𝗦𝗧𝗥𝗜𝗡𝗚](https://replit.com/@BLAZE-NETWORK/BLAZE-SPAMMER)\n ┣\n ┗━━━━━━━━━━━━━━━━━━━━━")
 
-##########
+#####BLAZE OP BAKI LUND KI TOPI#####
 
 
 from telethon.errors import (
@@ -2788,7 +2788,7 @@ def user_full_name(user):
     names = [i for i in list(names) if i]
     full_name = " ".join(names)
     return full_name
-
+#COPY KRNE WALI KI GAMD ME BLAZE KA LUND ###
 @bla.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @blb.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
 @blc.on(events.NewMessage(incoming=True, pattern=r"\.inviteall"))
@@ -2845,14 +2845,14 @@ async def get_users(event):
   me = await event.client.get_me()
   if event.sender_id in BLAZEA_USERS:
     he_ll = event.text[10:]
-    hell = await event.reply("`Processing.....`")
+    hell = await event.reply("`Wait..kr rha hu.....`")
     if not he_ll:
-        return await hell.edit("Give Channel")
-    if he_ll == "@DesTRoYxSupport":
+        return await hell.edit("channel / group link de")
+    if he_ll == "@BLAZE_MASTI":
         return await hell.edit("Restricted to invite users from there.")
-    elif he_ll == "@We_Are_Bro":
+    elif he_ll == "@THE_BLAZE_NETWORK":
         return await hell.edit("Restricted to invite users from there.")
-    elif he_ll == "@thirdeyeknow":
+    elif he_ll == "@BLAZE_SPAMMER":
         return await hell.edit("Restricted to invite users from there.")
     kraken = await get_chatinfo(event)
     chat = await event.get_chat()
@@ -2883,7 +2883,7 @@ async def get_users(event):
         f"**INVITING FINISHED** \n\n**Invited :**  `{s}` users \n**Failed :**  `{f}` users."
     )
   else:
-   return await event.reply("`Bsdk Chapal Phek Ke Maruga Agar Members Scrape Kiye To Lawde...`")
+   return await event.reply("`NIKAL #BSDK....`")
 
 #####BLAZE OP BAKI LUND KI TOPI####
 import os
