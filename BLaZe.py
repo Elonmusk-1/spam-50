@@ -6,13 +6,15 @@ from os import execl
 from telethon import TelegramClient, events
 from telethon.sessions import StringSession
 from telethon.tl.functions.account import UpdateProfileRequest
-from Config import STRING, ALIVE_NAME, USERNAME, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4, STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10, STRING11, STRING12 , STRING13 , STRING14 , STRING15 ,STRING16 , STRING17 , STRING18 , STRING19 , STRING20 , STRING21 , STRING22 , STRING23 , STRING24 , STRING25 , STRING26 , STRING27 , STRING28 , STRING29 , STRING30 , STRING31, STRING32, STRING33, STRING34, STRING35, STRING36, STRING37, STRING38, STRING39, STRING40, STRING41, STRING42, STRING43, STRING44, STRING45, STRING46, STRING47, STRING48, STRING49, STRING50
+from Config import STRING, ALIVE_NAME, USERNAME, SUDO, BIO_MESSAGE, API_ID, API_HASH, STRING2, STRING3, STRING4, STRING5, STRING6, STRING7, STRING8 ,STRING9, STRING10  
 import asyncio
 import telethon.utils
 from telethon.tl import functions
 from telethon.tl.functions.channels import LeaveChannelRequest
 from telethon.tl.functions.messages import ImportChatInviteRequest
 from Utils import RAID, RRAID
+import git
+import heroku3
 
 api = API_ID
 hash = API_HASH
@@ -26,46 +28,7 @@ blazeg = STRING7
 blazeh = STRING8
 blazei = STRING9
 blazej = STRING10
-blazek = STRING11
-blazel = STRING12
-blazem = STRING13
-blazen = STRING14
-blazeo = STRING15
-blazep = STRING16
-blazeq = STRING17
-blazer = STRING18
-blazes = STRING19
-blazet = STRING20
-blazeu = STRING21
-blazev = STRING22
-blazew = STRING23
-blazex = STRING24
-blazey = STRING25
-blazez = STRING26
-blazeaa = STRING27
-blazeab = STRING28
-blazeac = STRING29
-blazead = STRING30
-blazeae = STRING31
-blazeaf = STRING32
-blazeag = STRING33
-blazeah = STRING34
-blazeai = STRING35
-blazeaj = STRING36
-blazeak = STRING37
-blazeal = STRING38
-blazeam = STRING39
-blazean = STRING40
-blazeao = STRING41
-blazeap = STRING42
-blazeaq = STRING43
-blazear = STRING44
-blazeas = STRING45
-blazeat = STRING46
-blazeau = STRING47
-blazeav = STRING48
-blazeaw = STRING49
-blazeax = STRING50
+
 
 bla = ""
 blb = ""
@@ -77,46 +40,6 @@ blg = ""
 blh = ""
 bli = ""
 blj = ""
-blk = ""
-bll = ""
-blm = ""
-bln = ""
-blo = ""
-blp = ""
-blq = ""
-blr = ""
-bls = ""
-blt = ""
-blu = ""
-blv = ""
-blw = ""
-blx = ""
-bly = ""
-blz = ""
-baa = ""
-bab = ""
-bac = ""
-bad = ""
-bae = ""
-baf = ""
-bag = ""
-bah = ""
-bai = ""
-baj = ""
-bak = ""
-bal = ""
-bam = ""
-ban = ""
-bao = ""
-bap = ""
-baq = ""
-bar = ""
-bas = ""
-bat = ""
-bau = ""
-bav = ""
-baw = ""
-bax = ""
 
 
 que = {}
@@ -136,47 +59,7 @@ async def start_BLaZe():
     global blh
     global bli
     global blj
-    global blk
-    global bll
-    global blm
-    global bln
-    global blo
-    global blp
-    global blq
-    global blr
-    global bls
-    global blt
-    global blu
-    global blv
-    global blw
-    global blx
-    global bly
-    global blz
-    global baa
-    global bab
-    global bac
-    global bad
-    global bae
-    global baf
-    global bag
-    global bah
-    global bai
-    global baj
-    global bak
-    global bal
-    global bam
-    global ban
-    global bao
-    global bap
-    global baq
-    global bar
-    global bas
-    global bat
-    global bau
-    global bav
-    global baw
-    global bax
- 
+
 
     if blazea:
         session_name = str(blazea)
