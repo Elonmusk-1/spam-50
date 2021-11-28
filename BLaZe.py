@@ -18,56 +18,56 @@ import heroku3
 
 api = API_ID
 hash = API_HASH
-blazea = STRING
-blazeb = STRING2
-blazec = STRING3
-blazed = STRING4
-blazee = STRING5
-blazef = STRING6
-blazeg = STRING7
-blazeh = STRING8
-blazei = STRING9
-blazej = STRING10
-blazek = STRING11
-blazel = STRING12
-blazem = STRING13
-blazen = STRING14
-blazeo = STRING15
-blazep = STRING16
-blazeq = STRING17
-blazer = STRING18
-blazes = STRING19
-blazet = STRING20
-blazeu = STRING21
-blazev = STRING22
-blazew = STRING23
-blazex = STRING24
-blazey = STRING25
-blazez = STRING26
-blazeaa = STRING27
-blazeab = STRING28
-blazeac = STRING29
-blazead = STRING30
-blazeae = STRING31
-blazeaf = STRING32
-blazeag = STRING33
-blazeah = STRING34
-blazeai = STRING35
-blazeaj = STRING36
-blazeak = STRING37
-blazeal = STRING38
-blazeam = STRING39
-blazean = STRING40
-blazeao = STRING41
-blazeap = STRING42
-blazeaq = STRING43
-blazear = STRING44
-blazeas = STRING45
-blazeat = STRING46
-blazeau = STRING47
-blazeav = STRING48
-blazeaw = STRING49
-blazeax = STRING50
+Unknowna = STRING
+Unknownb = STRING2
+Unknownc = STRING3
+Unknownd = STRING4
+Unknowne = STRING5
+Unknownf = STRING6
+Unknowng = STRING7
+Unknownh = STRING8
+Unknowni = STRING9
+Unknownj = STRING10
+Unknownk = STRING11
+Unknownl = STRING12
+Unknownm = STRING13
+Unknownn = STRING14
+Unknowno = STRING15
+Unknownp = STRING16
+Unknownq = STRING17
+Unknownr = STRING18
+Unknowns = STRING19
+Unknownt = STRING20
+Unknownu = STRING21
+Unknownv = STRING22
+Unknownw = STRING23
+Unknownx = STRING24
+Unknowny = STRING25
+Unknownz = STRING26
+Unknownaa = STRING27
+Unknownab = STRING28
+Unknownac = STRING29
+Unknownad = STRING30
+Unknownae = STRING31
+Unknownaf = STRING32
+Unknownag = STRING33
+Unknownah = STRING34
+Unknownai = STRING35
+Unknownaj = STRING36
+Unknownak = STRING37
+Unknownal = STRING38
+Unknownam = STRING39
+Unknownan = STRING40
+Unknownao = STRING41
+Unknownap = STRING42
+Unknownaq = STRING43
+Unknownar = STRING44
+Unknownas = STRING45
+Unknownat = STRING46
+Unknownau = STRING47
+Unknownav = STRING48
+Unknownaw = STRING49
+Unknownax = STRING50
 
 bla = ""
 blb = ""
@@ -123,11 +123,11 @@ bax = ""
 
 que = {}
 
-BLAZEA_USERS = []
+UnknownA_USERS = []
 for x in SUDO: 
-    BLAZEA_USERS.append(x)
+    UnknownA_USERS.append(x)
     
-async def start_BLaZe():
+async def start_Unknown():
     global bla
     global blb
     global blc
@@ -180,20 +180,20 @@ async def start_BLaZe():
     global bax
  
 
-    if blazea:
-        session_name = str(blazea)
+    if Unknowna:
+        session_name = str(Unknowna)
         print("String 1 Found")
         bla = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 1")
             await bla.start()
             botme = await bla.get_me()
-            await bla(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bla(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bla(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bla(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
-            bla = "BLAZEA"
+            bla = "UnknownA"
             print(e)
             pass
     else:
@@ -205,18 +205,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeb:
-        session_name = str(blazeb)
+    if Unknownb:
+        session_name = str(Unknownb)
         print("String 2 Found")
         blb = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 2")
             await blb.start()
             botme = await blb.get_me()
-            await blb(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blb(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blb(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blb(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -230,18 +230,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazec:
-        session_name = str(blazec)
+    if Unknownc:
+        session_name = str(Unknownc)
         print("String 3 Found")
         blc = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 3")
             await blc.start()
             botme = await blc.get_me()
-            await blc(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blc(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blc(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blc(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -255,18 +255,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazed:
-        session_name = str(blazed)
+    if Unknownd:
+        session_name = str(Unknownd)
         print("String 4 Found")
         bld = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 4")
             await bld.start()
             botme = await bld.get_me()
-            await bld(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bld(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bld(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bld(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -280,18 +280,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazee:
-        session_name = str(blazee)
+    if Unknowne:
+        session_name = str(Unknowne)
         print("String 5 Found")
         ble = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 5")
             await ble.start()
             botme = await ble.get_me()
-            await ble(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await ble(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await ble(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await ble(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -305,18 +305,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazef:
-        session_name = str(blazef)
+    if Unknownf:
+        session_name = str(Unknownf)
         print("String 6 Found")
         blf = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 6")
             await blf.start()
             botme = await blf.get_me()
-            await blf(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blf(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blf(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blf(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -330,18 +330,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeg:
-        session_name = str(blazeg)
+    if Unknowng:
+        session_name = str(Unknowng)
         print("String 7 Found")
         blg = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 7")
             await blg.start()
             botme = await blg.get_me()
-            await blg(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blg(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blg(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blg(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -355,18 +355,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeh:
-        session_name = str(blazeh)
+    if Unknownh:
+        session_name = str(Unknownh)
         print("String 8 Found")
         blh = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 8")
             await blh.start()
             botme = await blh.get_me()
-            await blh(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blh(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blh(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blh(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -380,18 +380,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazei:
-        session_name = str(blazei)
+    if Unknowni:
+        session_name = str(Unknowni)
         print("String 9 Found")
         bli = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 9")
             await bli.start()
             botme = await bli.get_me()
-            await bli(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bli(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bli(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bli(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -405,18 +405,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazej:
-        session_name = str(blazej)
+    if Unknownj:
+        session_name = str(Unknownj)
         print("String 10 Found")
         blj = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 10")
             await blj.start()
             botme = await blj.get_me()
-            await blj(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blj(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blj(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blj(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -430,18 +430,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazek:
-        session_name = str(blazek)
+    if Unknownk:
+        session_name = str(Unknownk)
         print("String 11 Found")
         blk = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 11")
             await blk.start()
             botme = await blk.get_me()
-            await blk(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blk(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blk(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blk(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -455,18 +455,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazel:
-        session_name = str(blazel)
+    if Unknownl:
+        session_name = str(Unknownl)
         print("String 12 Found")
         bll = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 12")
             await bll.start()
             botme = await bll.get_me()
-            await bll(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bll(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bll(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bll(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -480,18 +480,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazem:
-        session_name = str(blazem)
+    if Unknownm:
+        session_name = str(Unknownm)
         print("String 13 Found")
         blm = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 13")
             await blm.start()
             botme = await blm.get_me()
-            await blm(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blm(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blm(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blm(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -505,18 +505,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazen:
-        session_name = str(blazen)
+    if Unknownn:
+        session_name = str(Unknownn)
         print("String 14 Found")
         bln = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 14")
             await bln.start()
             botme = await bln.get_me()
-            await bln(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bln(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bln(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bln(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -530,18 +530,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeo:
-        session_name = str(blazeo)
+    if Unknowno:
+        session_name = str(Unknowno)
         print("String 15 Found")
         blo = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 15")
             await blo.start()
             botme = await blo.get_me()
-            await blo(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blo(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blo(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blo(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -555,18 +555,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazep:
-        session_name = str(blazep)
+    if Unknownp:
+        session_name = str(Unknownp)
         print("String 16 Found")
         blp = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 16")
             await blp.start()
             botme = await blp.get_me()
-            await blp(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blp(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blp(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blp(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -580,18 +580,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeq:
-        session_name = str(blazeq)
+    if Unknownq:
+        session_name = str(Unknownq)
         print("String 17 Found")
         blq = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 17")
             await blq.start()
             botme = await blq.get_me()
-            await blq(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blq(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blq(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blq(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -605,18 +605,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazer:
-        session_name = str(blazer)
+    if Unknownr:
+        session_name = str(Unknownr)
         print("String 18 Found")
         blr = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 18")
             await blr.start()
             botme = await blr.get_me()
-            await blr(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blr(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blr(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blr(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -630,18 +630,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazes:
-        session_name = str(blazes)
+    if Unknowns:
+        session_name = str(Unknowns)
         print("String 19 Found")
         bls = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 19")
             await bls.start()
             botme = await bld.get_me()
-            await bls(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bls(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bls(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bls(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -655,18 +655,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazet:
-        session_name = str(blazet)
+    if Unknownt:
+        session_name = str(Unknownt)
         print("String 20 Found")
         blt = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 20")
             await blt.start()
             botme = await blt.get_me()
-            await blt(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blt(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blt(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blt(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -680,18 +680,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeu:
-        session_name = str(blazeu)
+    if Unknownu:
+        session_name = str(Unknownu)
         print("String 21 Found")
         blu = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 21")
             await blu.start()
             botme = await blu.get_me()
-            await blu(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blu(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blu(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blu(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -705,18 +705,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazev:
-        session_name = str(blazev)
+    if Unknownv:
+        session_name = str(Unknownv)
         print("String 22 Found")
         blv = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 22")
             await blv.start()
             botme = await blv.get_me()
-            await blv(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blv(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blv(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blv(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -730,18 +730,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazew:
-        session_name = str(blazew)
+    if Unknownw:
+        session_name = str(Unknownw)
         print("String 23 Found")
         blw = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 23")
             await blw.start()
             botme = await blw.get_me()
-            await blw(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blw(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blw(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blw(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -755,18 +755,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazex:
-        session_name = str(blazex)
+    if Unknownx:
+        session_name = str(Unknownx)
         print("String 24 Found")
         blx = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 24")
             await blx.start()
             botme = await blx.get_me()
-            await blx(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blx(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blx(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blx(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -781,18 +781,18 @@ async def start_BLaZe():
             pass
 
 
-    if blazey:
-        session_name = str(blazey)
+    if Unknowny:
+        session_name = str(Unknowny)
         print("String 25 Found")
         bly = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 25")
             await bly.start()
             botme = await bly.get_me()
-            await bly(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bly(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bly(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bly(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -806,18 +806,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazez:
-        session_name = str(blazez)
+    if Unknownz:
+        session_name = str(Unknownz)
         print("String 26 Found")
         blz = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 26")
             await blz.start()
             botme = await blz.get_me()
-            await blz(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await blz(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await blz(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await blz(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -831,18 +831,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeaa:
-        session_name = str(blazeaa)
+    if Unknownaa:
+        session_name = str(Unknownaa)
         print("String 27 Found")
         baa = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 27")
             await baa.start()
             botme = await baa.get_me()
-            await baa(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await baa(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await baa(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await baa(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -856,18 +856,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeab:
-        session_name = str(blazeab)
+    if Unknownab:
+        session_name = str(Unknownab)
         print("String 28 Found")
         bab = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 28")
             await bab.start()
             botme = await bab.get_me()
-            await bab(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bab(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bab(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bab(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -881,18 +881,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeac:
-        session_name = str(blazeac)
+    if Unknownac:
+        session_name = str(Unknownac)
         print("String 29 Found")
         bac = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 29")
             await bac.start()
             botme = await bac.get_me()
-            await bac(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bac(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bac(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bac(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -906,18 +906,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazead:
-        session_name = str(blazead)
+    if Unknownad:
+        session_name = str(Unknownad)
         print("String 30 Found")
         bad = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 30")
             await bad.start()
             botme = await bad.get_me()
-            await bad(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bad(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bad(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bad(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -931,18 +931,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeae:
-        session_name = str(blazeae)
+    if Unknownae:
+        session_name = str(Unknownae)
         print("String 31 Found")
         bae = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 31")
             await bae.start()
             botme = await bae.get_me()
-            await bae(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bae(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bae(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bae(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -957,18 +957,18 @@ async def start_BLaZe():
             pass
 
 
-    if blazeaf:
-        session_name = str(blazeaf)
+    if Unknownaf:
+        session_name = str(Unknownaf)
         print("String 32 Found")
         baf = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 32")
             await baf.start()
             botme = await baf.get_me()
-            await baf(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await baf(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await baf(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await baf(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -982,18 +982,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeag:
-        session_name = str(blazeag)
+    if Unknownag:
+        session_name = str(Unknownag)
         print("String 33 Found")
         bag = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 33")
             await bag.start()
             botme = await bag.get_me()
-            await bag(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bag(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bag(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bag(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1007,18 +1007,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeah:
-        session_name = str(blazeah)
+    if Unknownah:
+        session_name = str(Unknownah)
         print("String 34 Found")
         bah = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 34")
             await bah.start()
             botme = await bah.get_me()
-            await bah(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bah(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bah(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bah(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1032,18 +1032,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeai:
-        session_name = str(blazeai)
+    if Unknownai:
+        session_name = str(Unknownai)
         print("String 35 Found")
         bai = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 35")
             await bai.start()
             botme = await bai.get_me()
-            await bai(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bai(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bai(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bai(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1057,18 +1057,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeaj:
-        session_name = str(blazeaj)
+    if Unknownaj:
+        session_name = str(Unknownaj)
         print("String 36 Found")
         baj = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 36")
             await baj.start()
             botme = await baj.get_me()
-            await baj(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await baj(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await baj(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await baj(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1082,18 +1082,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeak:
-        session_name = str(blazeak)
+    if Unknownak:
+        session_name = str(Unknownak)
         print("String 37 Found")
         bak = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 37")
             await bak.start()
             botme = await bak.get_me()
-            await bak(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bak(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bak(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bak(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1107,18 +1107,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeal:
-        session_name = str(blazeal)
+    if Unknownal:
+        session_name = str(Unknownal)
         print("String 38 Found")
         bal = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 38")
             await bal.start()
             botme = await bal.get_me()
-            await bal(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bal(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bal(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bal(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1132,18 +1132,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeam:
-        session_name = str(blazeam)
+    if Unknownam:
+        session_name = str(Unknownam)
         print("String 39 Found")
         bam = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 39")
             await bam.start()
             botme = await bam.get_me()
-            await bam(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bam(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bam(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bam(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1157,18 +1157,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazean:
-        session_name = str(blazean)
+    if Unknownan:
+        session_name = str(Unknownan)
         print("String 40 Found")
         ban = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 40")
             await ban.start()
             botme = await bad.get_me()
-            await ban(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await ban(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await ban(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await ban(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1182,18 +1182,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeao:
-        session_name = str(blazeao)
+    if Unknownao:
+        session_name = str(Unknownao)
         print("String 41 Found")
         bao = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 41")
             await bao.start()
             botme = await bao.get_me()
-            await bao(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bao(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bao(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bao(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1207,18 +1207,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
     
-    if blazeap:
-        session_name = str(blazeap)
+    if Unknownap:
+        session_name = str(Unknownap)
         print("String 42 Found")
         bap = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 42")
             await bap.start()
             botme = await bap.get_me()
-            await bap(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bap(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bap(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bap(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1232,18 +1232,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeaq:
-        session_name = str(blazeaq)
+    if Unknownaq:
+        session_name = str(Unknownaq)
         print("String 43 Found")
         baq = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 43")
             await baq.start()
             botme = await baq.get_me()
-            await baq(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await baq(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await baq(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await baq(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1257,18 +1257,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazear:
-        session_name = str(blazear)
+    if Unknownar:
+        session_name = str(Unknownar)
         print("String 44 Found")
         bar = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 44")
             await bar.start()
             botme = await bar.get_me()
-            await bar(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bar(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bar(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bar(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1282,18 +1282,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeas:
-        session_name = str(blazeas)
+    if Unknownas:
+        session_name = str(Unknownas)
         print("String 45 Found")
         bas = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 45")
             await bas.start()
             botme = await bas.get_me()
-            await bas(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bas(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bas(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bas(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1307,18 +1307,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeat:
-        session_name = str(blazeat)
+    if Unknownat:
+        session_name = str(Unknownat)
         print("String 46 Found")
         bat = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 46")
             await bat.start()
             botme = await bat.get_me()
-            await bat(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bat(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bat(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bat(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1332,18 +1332,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeau:
-        session_name = str(blazeau)
+    if Unknownau:
+        session_name = str(Unknownau)
         print("String 47 Found")
         bau = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 47")
             await bau.start()
             botme = await bau.get_me()
-            await bau(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bau(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bau(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bau(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1357,18 +1357,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeav:
-        session_name = str(blazeav)
+    if Unknownav:
+        session_name = str(Unknownav)
         print("String 48 Found")
         bav = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 48")
             await bav.start()
             botme = await bav.get_me()
-            await bav(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bav(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bav(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bav(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1382,18 +1382,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
 
-    if blazeaw:
-        session_name = str(blazeaw)
+    if Unknownaw:
+        session_name = str(Unknownaw)
         print("String 49 Found")
         baw = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 49")
             await baw.start()
             botme = await baw.get_me()
-            await baw(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await baw(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await baw(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await baw(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1407,18 +1407,18 @@ async def start_BLaZe():
         except Exception as e:
             pass
     
-    if blazeax:
-        session_name = str(blazeax)
+    if Unknownax:
+        session_name = str(Unknownax)
         print("String 50 Found")
         bax = TelegramClient(StringSession(session_name), api, hash)
         try:
             print("Booting Up The Client 50")
             await bax.start()
             botme = await bax.get_me()
-            await bax(functions.channels.JoinChannelRequest(channel="@BLAZE_SPAMMER"))
-            await bax(functions.channels.JoinChannelRequest(channel="@THE_BLAZE_NETWORK"))           
+            await bax(functions.channels.JoinChannelRequest(channel="@Unknown_fighters"))
+            await bax(functions.channels.JoinChannelRequest(channel="@Unknown_Fighters_Network"))           
             botid = telethon.utils.get_peer_id(botme)
-            BLAZEA_USERS.append(botid)
+            UnknownA_USERS.append(botid)
         except Exception as e:
           
             print(e)
@@ -1437,16 +1437,16 @@ async def start_BLaZe():
 
 
 loop = asyncio.get_event_loop()
-loop.run_until_complete(start_BLaZe())    
+loop.run_until_complete(start_Unknown())    
    
-async def gifspam(e, blazea):
+async def gifspam(e, Unknowna):
     try:
         await e.client(
             functions.messages.SaveGifRequest(
                 id=types.InputDocument(
                     id=sandy.media.document.id,
-                    access_hash=blazea.media.document.access_hash,
-                    file_reference=blazea.media.document.file_reference,
+                    access_hash=Unknowna.media.document.access_hash,
+                    file_reference=Unknowna.media.document.file_reference,
                 ),
                 unsave=True,
             )
@@ -1509,15 +1509,15 @@ async def gifspam(e, blazea):
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗼\n\nCommand:\n\n.bio <Message to set Bio of Userbot accounts>"
-    if e.sender_id in BLAZEA_USERS:
-        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
+    if e.sender_id in UnknownA_USERS:
+        Unknown = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)     
         if len(e.text) > 5:
-            bio = str(bLaZe[0])
+            bio = str(Unknown[0])
             text = "Changing Bio"
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await e.client(functions.account.UpdateProfileRequest(about=bio))
-                await event.edit("Succesfully Changed Bio...... bLaZe Spam Bot")
+                await event.edit("Succesfully Changed Bio...... Unknown Spam Bot")
             except Exception as e:
                 await event.edit(str(e))   
         else:
@@ -1581,10 +1581,10 @@ async def _(e):
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.join <Public Channel or Group Link/Username>"
-    if e.sender_id in BLAZEA_USERS:
-        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+    if e.sender_id in UnknownA_USERS:
+        Unknown = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 6:
-            bc = bLaZe[0]
+            bc = Unknown[0]
             text = "Joining..."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
@@ -1648,10 +1648,10 @@ async def _(e):
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗣𝗿𝗶𝘃𝗮𝘁𝗲 𝗝𝗼𝗶𝗻\n\nCommand:\n\n.pjoin <Private Channel or Group's access hash>\n\nExample :\nLink = https://t.me/joinchat/HGYs1wvsPUplMmM1\n\n.pjoin HGYs1wvsPUplMmM1"
-    if e.sender_id in BLAZEA_USERS:
-        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+    if e.sender_id in UnknownA_USERS:
+        Unknown = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) > 7:
-            bc = bLaZe[0]
+            bc = Unknown[0]
             text = "Joining...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
@@ -1717,12 +1717,12 @@ async def _(e):
 
 async def _(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗟𝗲𝗮𝘃𝗲\n\nCommand:\n\n.leave <Channel or Chat ID>"
-    if e.sender_id in BLAZEA_USERS:
-        bLaZe = ("".leave(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+    if e.sender_id in UnknownA_USERS:
+        Unknown = ("".leave(e.text.split(maxsplit=1)[1:])).split(" ", 1)
         if len(e.text) == 7:
-            bc = bLaZe[0]
+            bc = Unknown[0]
             bc = int(bc)
-            text = "BLaZe TeAm Leaving...."
+            text = "Unknown TeAm Leaving...."
             event = await e.reply(text, parse_mode=None, link_preview=None )
             try:
                 await event.client(LeaveChannelRequest(bc))
@@ -1786,26 +1786,26 @@ async def _(e):
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗦𝗽𝗮𝗺\n\nCommand:\n\n.spam <count> <message to spam>\n\n.spam <count> <reply to a message>\n\nCount must be a integer."
     error = "Spam Module can only be used till 100 count. For bigger spams use BigSpam."
-    if e.sender_id in BLAZEA_USERS:
+    if e.sender_id in UnknownA_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        blazea = await e.get_reply_message()
-        if len(bLaZe) == 2:
-            message = str(bLaZe[1])
-            counter = int(bLaZe[0])
+        Unknown = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        Unknowna = await e.get_reply_message()
+        if len(Unknown) == 2:
+            message = str(Unknown[1])
+            counter = int(Unknown[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None )
             await asyncio.wait([e.respond(message) for i in range(counter)])
-        elif e.reply_to_msg_id and blazea.media:  
+        elif e.reply_to_msg_id and Unknowna.media:  
             counter = int(alex[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None )
             for _ in range(counter): 
-                blazea = await e.client.send_file(e.chat_id, smex, caption=smex.text)
-                await gifspam(e, blazea)  
-        elif e.reply_to_msg_id and blazea.text:
-            message = blazea.text
+                Unknowna = await e.client.send_file(e.chat_id, smex, caption=smex.text)
+                await gifspam(e, Unknowna)  
+        elif e.reply_to_msg_id and Unknowna.text:
+            message = Unknowna.text
             counter = int(alex[0])
             if counter > 100:
                 return await e.reply(error, parse_mode=None, link_preview=None )
@@ -1889,33 +1889,33 @@ async def spam(e):
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗹𝗮𝘆𝗦𝗽𝗮𝗺\n\nCommand:\n\n.delayspam <sleep time> <count> <message to spam>\n\n.delayspam <sleep time> <count> <reply to a message>\n\nCount and Sleeptime must be a integer."
-    if e.sender_id in BLAZEA_USERS:
+    if e.sender_id in UnknownA_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        blazea = await e.get_reply_message()
-        bLaZe = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
-        bLaZesexy = bLaZe[1:]
-        if len(bLaZesexy) == 2:
-            message = str(bLaZesexy[1])
-            counter = int(bLaZesexy[0])
-            sleeptime = float(bLaZe[0])
+        Unknowna = await e.get_reply_message()
+        Unknown = "".join(e.text.split(maxsplit=1)[1:]).split(" ", 2)
+        Unknownsexy = Unknown[1:]
+        if len(Unknownsexy) == 2:
+            message = str(Unknownsexy[1])
+            counter = int(Unknownsexy[0])
+            sleeptime = float(Unknown[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
-                        await blazea.reply(message)
+                        await Unknowna.reply(message)
                     else:
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(sleeptime)
-        elif e.reply_to_msg_id and blazea.media:  
+        elif e.reply_to_msg_id and Unknowna.media:  
             counter = int(alexsexy[0])
             sleeptime = float(alex[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
-                    blazea = await e.client.send_file(e.chat_id, blaze, caption=blazea.text)
-                    await gifspam(e, blazea) 
+                    Unknowna = await e.client.send_file(e.chat_id, Unknown, caption=Unknowna.text)
+                    await gifspam(e, Unknowna) 
                 await asyncio.sleep(sleeptime)
-        elif e.reply_to_msg_id and blazea.text:
-            message = blazea.text
+        elif e.reply_to_msg_id and Unknowna.text:
+            message = Unknowna.text
             counter = int(alexsexy[0])
             sleeptime = float(alex[0])
             for _ in range(counter):
@@ -1979,31 +1979,31 @@ async def spam(e):
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗕𝗶𝗴𝗦𝗽𝗮𝗺\n\nCommand:\n\n.bigspam <count> <message to spam>\n\n.bigspam <count> <reply to a message>\n\nCount must be a integer."
-    if e.sender_id in BLAZEA_USERS:
+    if e.sender_id in UnknownA_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        blazea = await e.get_reply_message()
-        if len(bLaZe) == 2:
-            message = str(bLaZe[1])
-            counter = int(bLaZe[0])
+        Unknown = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        Unknowna = await e.get_reply_message()
+        if len(Unknown) == 2:
+            message = str(Unknown[1])
+            counter = int(Unknown[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     if e.reply_to_msg_id:
-                        await blazea.reply(message)
+                        await Unknowna.reply(message)
                     else:
                         await e.client.send_message(e.chat_id, message)
                     await asyncio.sleep(0.1)
-        elif e.reply_to_msg_id and blazea.media:  
-            counter = int(blaze[0])
+        elif e.reply_to_msg_id and Unknowna.media:  
+            counter = int(Unknown[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "document"):
-                    blazea = await e.client.send_file(e.chat_id, blazea, caption=blazea.text)
-                    await gifspam(e, blazea) 
+                    Unknowna = await e.client.send_file(e.chat_id, Unknowna, caption=Unknowna.text)
+                    await gifspam(e, Unknowna) 
                 await asyncio.sleep(0.1)  
-        elif e.reply_to_msg_id and blazea.text:
-            message = blazea.text
-            counter = int(bLaZe[0])
+        elif e.reply_to_msg_id and Unknowna.text:
+            message = Unknowna.text
+            counter = int(Unknown[0])
             for _ in range(counter):
                 async with e.client.action(e.chat_id, "typing"):
                     await e.client.send_message(e.chat_id, message)
@@ -2064,19 +2064,19 @@ async def spam(e):
 
 async def spam(e):
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗮𝗶𝗱\n\nCommand:\n\n.raid <count> <Username of User>\n\n.raid <count> <reply to a User>\n\nCount must be a integer."
-    if e.sender_id in BLAZEA_USERS:
+    if e.sender_id in UnknownA_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        bLaZea = await e.get_reply_message()
-        if len(bLaZe) == 2:
-            message = str(bLaZe[1])
+        Unknown = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        Unknowna = await e.get_reply_message()
+        if len(Unknown) == 2:
+            message = str(Unknown[1])
             print(message)
             a = await e.client.get_entity(message)
             g = a.id
             c = a.first_name
             username = f"[{c}](tg://user?id={g})"
-            counter = int(bLaZe[0])
+            counter = int(Unknown[0])
             for _ in range(counter):
                 reply = random.choice(RAID)
                 caption = f"{username} {reply}"
@@ -2088,7 +2088,7 @@ async def spam(e):
             b = await e.client.get_entity(a.sender_id)
             g = b.id
             c = b.first_name
-            counter = int(bLaZe[0])
+            counter = int(Unknown[0])
             username = f"[{c}](tg://user?id={g})"
             for _ in range(counter):
                 reply = random.choice(RAID)
@@ -2223,13 +2223,13 @@ async def _(event):
 async def spam(e):
     global que
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱\n\nCommand:\n\n.replyraid <Username of User>\n\n.replyraid <reply to a User>"
-    if e.sender_id in BLAZEA_USERS:
+    if e.sender_id in UnknownA_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        blazea = await e.get_reply_message()
+        Unknown = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        Unknowna = await e.get_reply_message()
         if len(e.text) > 11:
-            message = str(bLaZe[0])
+            message = str(Unknown[0])
             a = await e.client.get_entity(message)
             g = a.id
             que[g] = []
@@ -2312,13 +2312,13 @@ async def spam(e):
 async def _(e):
     global que
     usage = "𝗠𝗼𝗱𝘂𝗹𝗲 𝗡𝗮𝗺𝗲 = 𝗗𝗲𝗮𝗰𝘁𝗶𝘃𝗮𝘁𝗲 𝗥𝗲𝗽𝗹𝘆𝗥𝗮𝗶𝗱\n\nCommand:\n\n.dreplyraid <Username of User>\n\n.dreplyraid <reply to a User>"
-    if e.sender_id in BLAZEA_USERS:
+    if e.sender_id in UnknownA_USERS:
         if e.text[0].isalpha() and e.text[0] in ("/", "#", "@", "!"):
             return await e.reply(usage, parse_mode=None, link_preview=None )
-        bLaZe = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
-        blazea = await e.get_reply_message()
+        Unknown = ("".join(e.text.split(maxsplit=1)[1:])).split(" ", 1)
+        Unknowna = await e.get_reply_message()
         if len(e.text) > 12:
-            message = str(bLaZe[0])
+            message = str(Unknown[0])
             a = await e.client.get_entity(message)
             g = a.id
             try:
@@ -2395,7 +2395,7 @@ async def _(e):
 
 
 async def ping(e):
-    if e.sender_id in BLAZEA_USERS:
+    if e.sender_id in UnknownA_USERS:
         start = datetime.now()
         text = "╰•★★  ℘ơŋɠ ★★•╯"
         event = await e.reply(text, parse_mode=None, link_preview=None )
@@ -2461,7 +2461,7 @@ async def ping(e):
 
 
 async def restart(e):
-    if e.sender_id in BLAZEA_USERS:
+    if e.sender_id in UnknownA_USERS:
         text = "𝙍𝙚𝙨𝙩𝙖𝙧𝙩𝙚𝙙\n\nPlease wait till it reboots..."
         await e.reply(text, parse_mode=None, link_preview=None )
         try:
@@ -2715,7 +2715,7 @@ async def restart(e):
 
 
 async def help(e):
-    if e.sender_id in BLAZEA_USERS:
+    if e.sender_id in UnknownA_USERS:
        text = "| 𝐓 𝐄 𝐀 𝐌 • ‌«[ 𝐁𝐋𝐀𝐙𝐄]»𝙁𝙄𝙂𝙃𝙏𝙀𝙍𝙎★➤➤♛✘ ๛ :\n#𝗕𝗟𝗔𝗭𝗘_𝗦𝗣𝗔𝗠𝗠𝗘𝗥\nᎪ𝚅Ꭺ𝙸ᏞᎪ𝙱Ꮮ𝙴  ᏟᎾ𝙼𝙼ᎪᏁᎠ𝚂\n\n#𝗨𝗧𝗜𝗟𝗦_𝗖𝗢𝗠𝗠𝗔𝗡𝗗:\n.𝙿ᎥᏁᎶ\n.Ꮢ𝚎𝚜𝚃𝚊𝚛𝚃\n\n#𝙐𝙨𝙚𝙧𝙗𝙤𝙩_𝘾𝙤𝙢𝙢𝙖𝙣𝙙:\n.𝙱𝙸𝙾\n.𝙹𝙾𝙸𝙽\n.𝙿𝙹𝙾𝙸𝙽\n.𝙻𝙴𝙰𝚅𝙴\n\n#𝗦𝗣𝗔𝗠_𝗖𝗢𝗠𝗠𝗔𝗡𝗗:\n.𝚂𝙿𝙰𝙼\n.𝙳𝙴𝙻𝙰𝚈𝚂𝙿𝙰𝙼\n.𝙱𝙸𝙶𝚂𝙿𝙰𝙼\n.bsdk\n.replybsdk\n.dreplybsdk\n\n#𝗕𝗟𝗔𝗭𝗘_𝗦𝗣𝗔𝗠𝗠𝗘𝗥\n ғσя мσяε #нεℓρ #яεgαя∂ιηg υsαgε σғ #ρℓυgιηs түρε ρℓυgιηs #ηαмεs"
     await e.reply(text, parse_mode=None, link_preview=None )
 
@@ -2726,21 +2726,21 @@ async def help(e):
 
 
 async def repo(e):
-    if e.sender_id in BLAZEA_USERS:
+    if e.sender_id in UnknownA_USERS:
         start = datetime.now()
         text = "★★вℓαᘔε ηε✞ሠᎾяᏦ★★"
         event = await e.reply(text, parse_mode=None, link_preview=None )
         end = datetime.now()
         ms = (end-start).microseconds / 1000
-        await event.edit(f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n➤ 𝐃𝐄𝐏𝐋𝐎𝐘 𝐓𝐎 50 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓𝐒 𝐈𝐍 𝐎𝐍 𝐓𝐌𝐄...\n➤ 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 :- [#𝗧𝗛𝗘_𝗕𝗟𝗔𝗭𝗘_𝗡𝗘𝗧𝗪𝗢𝗥𝗞](https://t.me/BLAZE_SPAMMER)\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n ┏━━━━━━━━━━━━━━━━━━━━━\n ┣➤∆ 𝚅𝙴𝚁𝚈 𝙵𝙰𝚂𝚃 𝚂𝙿𝙰𝙼...\n ┣    ∆ 𝙽𝙾𝙽 𝚂𝚃𝙾𝙿 𝚂𝙿𝙰𝙼...    \n ┣ 🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰\n ┣\n ┣ ┈ ➤  🔱   [𝗥𝗘𝗣𝗢](https://github.com/TEAM-BLAZ/BLAZE-SPAMMER-ROBOT)      \n ┣      \n ┣  ┈➤  🔱   [𝗦𝗧𝗥𝗜𝗡𝗚](https://replit.com/@BLAZE-NETWORK/BLAZE-SPAMMER)\n ┣\n ┗━━━━━━━━━━━━━━━━━━━━━")
+        await event.edit(f"▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱ \n➤ 𝐃𝐄𝐏𝐋𝐎𝐘 𝐓𝐎 50 𝐒𝐏𝐀𝐌 𝐁𝐎𝐓𝐒 𝐈𝐍 𝐎𝐍 𝐓𝐌𝐄...\n➤ 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 :- [▄▀▄ 𝓊𝐧ҜＮᗝ𝓌ή ｎє𝔱ώｏг𝓚 ▄▀▄](https://t.me/Unknown_fighters)\n▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱▰▱\n ┏━━━━━━━━━━━━━━━━━━━━━\n ┣➤∆ 𝚅𝙴𝚁𝚈 𝙵𝙰𝚂𝚃 𝚂𝙿𝙰𝙼...\n ┣    ∆ 𝙽𝙾𝙽 𝚂𝚃𝙾𝙿 𝚂𝙿𝙰𝙼...    \n ┣ 🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰🔰\n ┣\n ┣ ┈ ➤  🔱   [𝗥𝗘𝗣𝗢](https://github.com/TEAM-BLAZ/Unknown-SPAMMER-ROBOT)      \n ┣      \n ┣  ┈➤  🔱   [𝗦𝗧𝗥𝗜𝗡𝗚](https://replit.com/@Unknown-NETWORK/Unknown-SPAMMER)\n ┣\n ┗━━━━━━━━━━━━━━━━━━━━━")
 
 
 
-#####BLAZE OP BAKI LUND KI TOPI####
+#####Unknown OP BAKI LUND KI TOPI####
 import os
-blazespammer = os.environ.get("ALIVE_PIC",None)
-if not blazespammer:
- blazespammer="https://telegra.ph/file/2ab64117e0f74971ddb9e.jpg"
+Unknownspammer = os.environ.get("ALIVE_PIC",None)
+if not Unknownspammer:
+ Unknownspammer="https://telegra.ph/file/2ab64117e0f74971ddb9e.jpg"
 ##########COPY KRE USKI MA KA BOSDA#######
 
 @bla.on(events.NewMessage(incoming=True, pattern=r"\.alive"))
@@ -2796,7 +2796,7 @@ if not blazespammer:
 
 
 async def alive(event):
-  if event.sender_id in BLAZEA_USERS:
+  if event.sender_id in UnknownA_USERS:
     sed = await event.client.get_me()
     kk = sed.first_name
     k = sed.id
@@ -2805,10 +2805,10 @@ async def alive(event):
 ** 》ι'м {s} мємвєя σƒ вℓαzє ηєтωσяк《 **
 **☞ 𝙸'𝙼 𝙱𝙻𝙰𝚉𝙴 𝚂𝙿𝙰𝙼𝙼𝙴𝚁 𝙰𝙻𝙸𝚅𝙴.....**
 **✰𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙸𝚂 𝚆𝙾𝚁𝙺𝙸𝙽𝙶 𝙿𝙴𝚁𝙵𝙴𝙲𝚃𝙻𝚈..✰**
-📢 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 :- **[➠【𓆩βƖꪖƹꫀ✧»ŋɛтᗯơᏒƙ★](https://t.me/BLAZE_SPAMMER)** 
+📢 𝗣𝗢𝗪𝗘𝗥𝗘𝗗 𝗕𝗬 :- **[▄▀▄ 𝓊𝐧ҜＮᗝ𝓌ή ｎє𝔱ώｏг𝓚 ▄▀▄](https://t.me/Unknown_fighters)** 
 ** ➠𝙲𝙷𝙴𝙲𝙺 𝙼𝚈 𝙰𝙻𝙻 𝙲𝙾𝙼𝙼𝙰𝙽𝙳𝚂《 ☞ ** `.help` 
 """
-    await event.client.send_file(event.chat_id,blazespammer,caption=tf, force_document=False, link_preview=False)
+    await event.client.send_file(event.chat_id,Unknownspammer,caption=tf, force_document=False, link_preview=False)
 import time
 from time import sleep
         
@@ -2864,7 +2864,7 @@ from time import sleep
 @bax.on(events.NewMessage(incoming=True, pattern=r"\.purge"))
 
 async def purge(event):
- if event.sender_id in BLAZEA_USERS:
+ if event.sender_id in UnknownA_USERS:
    start = time.perf_counter()
    reply_msg = await event.get_reply_message()
    if not reply_msg:
